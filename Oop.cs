@@ -48,6 +48,6 @@ class Program
         int hariSewaMotor = 3;
         
         Console.WriteLine($"Biaya sewa mobil selama {hariSewaMobil} hari: Rp.{toyota.HitungBiayaSewa(hariSewaMobil)}");
-        Console.WriteLine($"Biaya sewa motor selama {hariSewaMotor} hari: Rp.{yamaha.HitungBiayaSewa(hariSewaMobil)}");
+        Console.WriteLine($"Biaya sewa motor selama {hariSewaMotor} hari: Rp.{yamaha.HitungBiayaSewa(hariSewaMotor)}");
     }
 }
